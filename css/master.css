@@ -1,0 +1,408 @@
+body {
+  background-color: rgb(27, 27, 27) !important;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 100%;
+  font-family: sans-serif;
+  background-image: linear-gradient(
+    #b8bedd,
+    #bfc3e0,
+    #c6c8e2,
+    #cdcde4,
+    #d4d2e6,
+    #f0e6ef
+  );
+  
+}
+
+header .card {
+  background-color: #cdcde4 !important;
+  color: #313131;
+}
+
+header p {
+  font-size: 18px;
+}
+
+#projects .card {
+  background-image: linear-gradient(
+    #b8bedd,
+    #bfc3e0,
+    #c6c8e2,
+    #cdcde4,
+    #d4d2e6,
+    #f0e6ef
+  ) !important;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.project-text {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#skill_summary span {
+  font-size: 0.78rem;
+}
+
+#career_highlights h5 {
+  font-size: 1.4rem;
+  padding-top: 10px;
+}
+
+#career_highlights p {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+#education h5 {
+  font-size: 1.2rem;
+}
+
+#education p {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+#contact h5 {
+  font-size: 2rem;
+}
+
+#contact p {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 1361px) {
+  body {
+    font-size: 105%;
+  }
+
+  header p {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  .project-card h5 {
+    font-size: 1.8rem;
+  }
+
+  .project-text {
+    font-size: 20px !important;
+  }
+
+  .card-link {
+    font-size: 1.1rem;
+    padding: 8px 60px !important;
+  }
+
+  .badge {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.2rem !important;
+  }
+
+  .container {
+    max-width: 1400px;
+  }
+
+  #skill_summary span {
+    font-size: 1rem;
+  }
+  #career_highlights h5 {
+    font-size: 1.6rem;
+  }
+  #career_highlights p {
+    font-size: 1.3rem;
+  }
+  #education h5 {
+    font-size: 1.4rem;
+  }
+  #education p {
+    font-size: 1.2rem;
+  }
+  #contact h5 {
+    font-size: 2.2rem;
+  }
+  #contact p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    font-size: 115%;
+  }
+
+  header p {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 2.8rem;
+  }
+
+  h4 {
+    font-size: 2.2rem;
+  }
+
+  h5 {
+    font-size: 1.8rem;
+  }
+
+  .project-card h5 {
+    font-size: 2.2rem;
+  }
+
+  .project-text {
+    font-size: 22px !important;
+  }
+
+  .card-link {
+    font-size: 1.3rem;
+    padding: 10px 70px !important;
+  }
+
+  .badge {
+    font-size: 1.4rem;
+    padding: 1rem 1.5rem !important;
+  }
+
+  .container {
+    max-width: 1600px;
+  }
+
+  .separation {
+    font-size: 70px !important;
+  }
+
+  header .card {
+    padding-bottom: 2rem !important;
+  }
+
+  header figure {
+    margin-right: 2rem;
+  }
+
+  header .rounded-circle {
+    width: 250px;
+    height: 375px;
+  }
+
+  #skill_summary span {
+    font-size: 1.2rem;
+  }
+  #career_highlights h5 {
+    font-size: 1.8rem;
+  }
+  #career_highlights p {
+    font-size: 1.4rem;
+  }
+  #education h5 {
+    font-size: 1.6rem;
+  }
+  #education p {
+    font-size: 1.3rem;
+  }
+  #contact h5 {
+    font-size: 2.5rem;
+  }
+  #contact p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  body {
+    font-size: 125%;
+  }
+
+  header p {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h3 {
+    font-size: 3.5rem;
+  }
+
+  h4 {
+    font-size: 2.8rem;
+  }
+
+  h5 {
+    font-size: 2.2rem;
+  }
+
+  .project-card h5 {
+    font-size: 2.8rem;
+  }
+
+  .project-text {
+    font-size: 24px !important;
+  }
+
+  .card-link {
+    font-size: 1.5rem;
+    padding: 12px 80px !important;
+  }
+
+  .badge {
+    font-size: 1.6rem;
+    padding: 1.2rem 1.8rem !important;
+  }
+
+  .container {
+    max-width: 1900px;
+  }
+
+  .separation {
+    font-size: 80px !important;
+  }
+
+  header .rounded-circle {
+    width: 300px;
+    height: 450px;
+  }
+
+  #skill_summary span {
+    font-size: 1.4rem;
+  }
+  #career_highlights h5 {
+    font-size: 2.2rem;
+  }
+  #career_highlights p {
+    font-size: 1.6rem;
+  }
+  #education h5 {
+    font-size: 1.8rem;
+  }
+  #education p {
+    font-size: 1.5rem;
+  }
+  #contact h5 {
+    font-size: 2.8rem;
+  }
+  #contact p {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 3840px) {
+  body {
+    font-size: 150%;
+  }
+
+  header p {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  h3 {
+    font-size: 4rem;
+  }
+
+  h4 {
+    font-size: 3.2rem;
+  }
+
+  h5 {
+    font-size: 2.5rem;
+  }
+
+  .project-card h5 {
+    font-size: 3.2rem;
+  }
+
+  .project-text {
+    font-size: 28px !important;
+  }
+
+  .card-link {
+    font-size: 1.8rem;
+    padding: 15px 90px !important;
+  }
+
+  .badge {
+    font-size: 1.8rem;
+    padding: 1.5rem 2rem !important;
+  }
+
+  .container {
+    max-width: 2500px;
+  }
+
+  .separation {
+    font-size: 100px !important;
+  }
+
+  header .rounded-circle {
+    width: 400px;
+    height: 600px;
+  }
+
+  #skill_summary span {
+    font-size: 1.8rem;
+  }
+  #career_highlights h5 {
+    font-size: 2.8rem;
+  }
+  #career_highlights p {
+    font-size: 1.9rem;
+  }
+  #education h5 {
+    font-size: 2.2rem;
+  }
+  #education p {
+    font-size: 1.8rem;
+  }
+  #contact h5 {
+    font-size: 3.5rem;
+  }
+  #contact p {
+    font-size: 2.5rem;
+  }
+}
