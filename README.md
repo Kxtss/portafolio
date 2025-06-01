@@ -38,6 +38,8 @@ This project is a personal portfolio website built with HTML, CSS, designed to s
 Navigate through the various sections of the website using the scroll functionality or by simply scrolling down the page. Click on project links to explore their GitHub repositories or verification links in the education section.
 
 ## Screenshot
+![portafolio_showcase](https://github.com/user-attachments/assets/2ac2de4e-c314-4205-af67-1be39fcc9a4a)
+![portafolio_showcase2](https://github.com/user-attachments/assets/e4180eb7-7efb-4b49-96a0-61649eb8f41b)
 
 
 ## Credits and Acknowledgements
